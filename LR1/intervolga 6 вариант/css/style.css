@@ -1,0 +1,107 @@
+/* Style */
+@font-face {
+  font-family: 'GTEestiPro';
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn2.ozone.ru/s3/frontend-ozon-ru-public/fonts/GT-Eesti-Pro-Display-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'GTEestiPro';
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn2.ozone.ru/s3/frontend-ozon-ru-public/fonts/GT-Eesti-Pro-Display-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'GTEestiPro';
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+  src: url('//cdn2.ozone.ru/s3/frontend-ozon-ru-public/fonts/GT-Eesti-Pro-Display-Medium-Italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'GTEestiPro';
+  font-weight: 400;
+  font-display: swap;
+  src: url('//cdn2.ozone.ru/s3/frontend-ozon-ru-public/fonts/GT-Eesti-Pro-Display-Regular.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+}
+:root{
+  --ozGray40: #3d5165;
+  --ozGray60: #5a6c7d;
+  --ozBluePale: #e5efff;
+}
+body{
+  height: 100%;
+  font-family: 'GTEestiPro';
+}
+a{
+  text-decoration: none;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0px 28px;
+}
+
+/* Header */
+.header__container{
+  display: flex;
+  flex-direction: row;
+
+  padding: 4px 28px;
+}
+/* LEFT */
+.header__left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btn-secondary{
+  height: 20px;
+  padding: 1px 6px;
+  border-radius: 2px;
+  border: none;
+
+  background-color: rgba(14,50,103,.04);
+
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  color: #707f8b;
+  text-transform: uppercase;
+}
+.btn-secondary:hover{
+  background-color: rgba(0,26,52,.2);;
+}
+.link-secondary,
+.link-primary{
+  font-size: 14px;
+}
+/* RIGHT */
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+  margin-left: auto;
+  justify-content: flex-end;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.nav-link{
+  padding: 0;
+  margin-bottom: 4px;
+  margin-left: 16px;
+
+  font-size: 14px;
+  color: var(--ozGray60);
+}
+.active{
+  padding: 0 8px;
+
+  background-color: var(--ozBluePale);
+  border-radius: 8px;
+}
