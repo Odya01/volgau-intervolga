@@ -35,6 +35,7 @@
   --ozTextAction: #005bff;
   --ozBluePale: #e5efff;
   --ozTextSecondary: #707f8d;
+  --ozTextQuaternary: #96a3ae;
 }
 body{
   height: 100%;
@@ -259,7 +260,6 @@ ul{
 }
 
 
-
 .header__nav-item{
   padding: 4px;
 }
@@ -276,7 +276,7 @@ ul{
   height: 16px;
   width: 16px;
   margin-right: 5px;
-  
+
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -286,4 +286,28 @@ ul{
 }
 .header_active{
   color: #00a6a6;
+}
+
+
+/*Section product*/
+.section__product{
+  padding-top: 24px;
+}
+.breadcrumb{
+  margin: 8px 0 6px;
+}
+.breadcrumb-item a{
+  font-size: 14px;
+  color: var(--ozTextAction);
+}
+.eq9{
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin: 0 4px 0 8px;
+  vertical-align: top;
+  color: var(--ozTextQuaternary);
+}
+.breadcrumb-item+.breadcrumb-item::before{
+  display: none;
 }
