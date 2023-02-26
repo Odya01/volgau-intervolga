@@ -3,26 +3,26 @@
   font-family: 'GTEestiPro';
   font-weight: 700;
   font-display: swap;
-  src: url('//cdn2.ozone.ru/s3/frontend-ozon-ru-public/fonts/GT-Eesti-Pro-Display-Bold.woff2') format('woff2');
+  src: url('../fonts/GT-Eesti-Pro-Display-Bold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'GTEestiPro';
   font-weight: 500;
   font-display: swap;
-  src: url('//cdn2.ozone.ru/s3/frontend-ozon-ru-public/fonts/GT-Eesti-Pro-Display-Medium.woff2') format('woff2');
+  src: url('../fonts/GT-Eesti-Pro-Display-Medium.woff2') format('woff2');
 }
 @font-face {
   font-family: 'GTEestiPro';
   font-weight: 500;
   font-display: swap;
   font-style: italic;
-  src: url('//cdn2.ozone.ru/s3/frontend-ozon-ru-public/fonts/GT-Eesti-Pro-Display-Medium-Italic.woff2') format('woff2');
+  src: url('../fonts/GT-Eesti-Pro-Display-Medium-Italic.woff2') format('woff2');
 }
 @font-face {
   font-family: 'GTEestiPro';
   font-weight: 400;
   font-display: swap;
-  src: url('//cdn2.ozone.ru/s3/frontend-ozon-ru-public/fonts/GT-Eesti-Pro-Display-Regular.woff2') format('woff2');
+  src: url('../fonts/GT-Eesti-Pro-Display-Regular.woff2') format('woff2');
 }
 
 * {
