@@ -476,7 +476,10 @@ ul{
   display: block;
   width: 100%;
 
-  border-bottom: 1px dotted var(--ozGray60);
+  border-bottom: 1px dotted #5a6c7d;;
+}
+.rt4{
+  padding: 2px;
 }
 .description__item_text,
 .description__item_link{
@@ -503,7 +506,9 @@ ul{
 
   box-shadow: 0 6px 16px rgb(0 26 52 / 16%), 0 0 0 rgb(0 26 52 / 5%);
 }
-
+.item__price_value{
+  margin-bottom: 12px;
+}
 .price-real{
   font-size: 30px;
   font-weight: 700 ;
@@ -511,10 +516,54 @@ ul{
   color: #F91155;
 }
 .price-discount{
+  position: relative;
   font-size: 20px;
   font-weight: 700 ;
   line-height: 38px;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
 }
+.price-discount::after{
+  display: block;
+  position: absolute; 
+  right: 0px;
+  top: 10px; 
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #f91155;
 
+  transform: rotate(-2deg);
+}
+.item__price_card{
+  max-width: 244px;
+  margin-bottom: 12px;
+  padding: 3px;
+  border-radius: 8px;
+
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #10c44c;
+  color: white;
+}
+.item__price_best-link{
+  padding: 12px 0;
+  border-bottom: 1px solid #b3bcc5;
+  font-size: 14px;
+}
+.item__price_low-link{
+  padding: 12px 0;
+  font-size: 14px;
+}
+.btn__basket{
+  margin-top: 12px;
+  padding: 15px 0;
+  border-radius: 12px;
+}
+.item__delivery{
+  padding-top: 8px;
+
+  text-align: center;
+  font-size: 14px;
+}
 
