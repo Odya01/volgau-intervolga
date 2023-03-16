@@ -64,7 +64,249 @@
         </div>
 
         <div class="search-catalog__btn">
-          <button type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="margin-right: 6px"><path fill="currentColor" d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm2 0a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1Zm0 6a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1Zm1 5a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H8Zm-4-4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Каталог</button>
+          <button type="button" class="btn btn-primary" id="catalog__btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="margin-right: 6px"><path fill="currentColor" d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm2 0a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1Zm0 6a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1Zm1 5a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H8Zm-4-4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Каталог</button>
+
+
+          <!-- каталог -->
+          <div class="catalog">
+            <div class="container catalog__container">
+              <div class="catalog__categories">
+                <ul class="categories__item">
+                  <li class="categories__list">
+                    <a href="">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="d1g"><path fill="currentColor" d="M11.62 17.08c-.13.05-.23.12-.33.21-.18.19-.29.45-.29.71 0 .13.03.26.08.38.05.13.12.23.21.33.19.18.45.29.71.29.26 0 .52-.11.71-.29.18-.19.29-.45.29-.71 0-.26-.11-.52-.29-.71-.1-.09-.2-.16-.33-.21a1 1 0 0 0-.76 0ZM14 5a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2h4Z"></path><path fill="currentColor" d="M19 4c0-1.654-1.346-3-3-3H8C6.346 1 5 2.346 5 4v16c0 1.654 1.346 3 3 3h8c1.654 0 3-1.346 3-3V4Zm-2 0v16c0 .551-.449 1-1 1H8c-.551 0-1-.449-1-1V4c0-.551.449-1 1-1h8c.551 0 1 .449 1 1Z"></path></svg>
+                      </span>
+                      <span>
+                        Электроника
+                      </span>
+                      <span class="categories__icon-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="g1d"><path fill="currentColor" d="M9.293 6.293a1 1 0 0 0 0 1.414L13.586 12l-4.293 4.293a1 1 0 1 0 1.414 1.414l5-5a1 1 0 0 0 0-1.414l-5-5a1 1 0 0 0-1.414 0Z"></path></svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="categories__list">
+                    <a href="">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="d1g"><path fill="currentColor" d="M11.62 17.08c-.13.05-.23.12-.33.21-.18.19-.29.45-.29.71 0 .13.03.26.08.38.05.13.12.23.21.33.19.18.45.29.71.29.26 0 .52-.11.71-.29.18-.19.29-.45.29-.71 0-.26-.11-.52-.29-.71-.1-.09-.2-.16-.33-.21a1 1 0 0 0-.76 0ZM14 5a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2h4Z"></path><path fill="currentColor" d="M19 4c0-1.654-1.346-3-3-3H8C6.346 1 5 2.346 5 4v16c0 1.654 1.346 3 3 3h8c1.654 0 3-1.346 3-3V4Zm-2 0v16c0 .551-.449 1-1 1H8c-.551 0-1-.449-1-1V4c0-.551.449-1 1-1h8c.551 0 1 .449 1 1Z"></path></svg>
+                      </span>
+                      <span>
+                        Электроника
+                      </span>
+                      <span class="categories__icon-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="g1d"><path fill="currentColor" d="M9.293 6.293a1 1 0 0 0 0 1.414L13.586 12l-4.293 4.293a1 1 0 1 0 1.414 1.414l5-5a1 1 0 0 0 0-1.414l-5-5a1 1 0 0 0-1.414 0Z"></path></svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="categories__list">
+                    <a href="">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="d1g"><path fill="currentColor" d="M11.62 17.08c-.13.05-.23.12-.33.21-.18.19-.29.45-.29.71 0 .13.03.26.08.38.05.13.12.23.21.33.19.18.45.29.71.29.26 0 .52-.11.71-.29.18-.19.29-.45.29-.71 0-.26-.11-.52-.29-.71-.1-.09-.2-.16-.33-.21a1 1 0 0 0-.76 0ZM14 5a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2h4Z"></path><path fill="currentColor" d="M19 4c0-1.654-1.346-3-3-3H8C6.346 1 5 2.346 5 4v16c0 1.654 1.346 3 3 3h8c1.654 0 3-1.346 3-3V4Zm-2 0v16c0 .551-.449 1-1 1H8c-.551 0-1-.449-1-1V4c0-.551.449-1 1-1h8c.551 0 1 .449 1 1Z"></path></svg>
+                      </span>
+                      <span>
+                        Электроника
+                      </span>
+                      <span class="categories__icon-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="g1d"><path fill="currentColor" d="M9.293 6.293a1 1 0 0 0 0 1.414L13.586 12l-4.293 4.293a1 1 0 1 0 1.414 1.414l5-5a1 1 0 0 0 0-1.414l-5-5a1 1 0 0 0-1.414 0Z"></path></svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="categories__list">
+                    <a href="">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="d1g"><path fill="currentColor" d="M11.62 17.08c-.13.05-.23.12-.33.21-.18.19-.29.45-.29.71 0 .13.03.26.08.38.05.13.12.23.21.33.19.18.45.29.71.29.26 0 .52-.11.71-.29.18-.19.29-.45.29-.71 0-.26-.11-.52-.29-.71-.1-.09-.2-.16-.33-.21a1 1 0 0 0-.76 0ZM14 5a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2h4Z"></path><path fill="currentColor" d="M19 4c0-1.654-1.346-3-3-3H8C6.346 1 5 2.346 5 4v16c0 1.654 1.346 3 3 3h8c1.654 0 3-1.346 3-3V4Zm-2 0v16c0 .551-.449 1-1 1H8c-.551 0-1-.449-1-1V4c0-.551.449-1 1-1h8c.551 0 1 .449 1 1Z"></path></svg>
+                      </span>
+                      <span>
+                        Электроника
+                      </span>
+                      <span class="categories__icon-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="g1d"><path fill="currentColor" d="M9.293 6.293a1 1 0 0 0 0 1.414L13.586 12l-4.293 4.293a1 1 0 1 0 1.414 1.414l5-5a1 1 0 0 0 0-1.414l-5-5a1 1 0 0 0-1.414 0Z"></path></svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="categories__list">
+                    <a href="">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="d1g"><path fill="currentColor" d="M11.62 17.08c-.13.05-.23.12-.33.21-.18.19-.29.45-.29.71 0 .13.03.26.08.38.05.13.12.23.21.33.19.18.45.29.71.29.26 0 .52-.11.71-.29.18-.19.29-.45.29-.71 0-.26-.11-.52-.29-.71-.1-.09-.2-.16-.33-.21a1 1 0 0 0-.76 0ZM14 5a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2h4Z"></path><path fill="currentColor" d="M19 4c0-1.654-1.346-3-3-3H8C6.346 1 5 2.346 5 4v16c0 1.654 1.346 3 3 3h8c1.654 0 3-1.346 3-3V4Zm-2 0v16c0 .551-.449 1-1 1H8c-.551 0-1-.449-1-1V4c0-.551.449-1 1-1h8c.551 0 1 .449 1 1Z"></path></svg>
+                      </span>
+                      <span>
+                        Электроника
+                      </span>
+                      <span class="categories__icon-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="g1d"><path fill="currentColor" d="M9.293 6.293a1 1 0 0 0 0 1.414L13.586 12l-4.293 4.293a1 1 0 1 0 1.414 1.414l5-5a1 1 0 0 0 0-1.414l-5-5a1 1 0 0 0-1.414 0Z"></path></svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="categories__list">
+                    <a href="">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="d1g"><path fill="currentColor" d="M11.62 17.08c-.13.05-.23.12-.33.21-.18.19-.29.45-.29.71 0 .13.03.26.08.38.05.13.12.23.21.33.19.18.45.29.71.29.26 0 .52-.11.71-.29.18-.19.29-.45.29-.71 0-.26-.11-.52-.29-.71-.1-.09-.2-.16-.33-.21a1 1 0 0 0-.76 0ZM14 5a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2h4Z"></path><path fill="currentColor" d="M19 4c0-1.654-1.346-3-3-3H8C6.346 1 5 2.346 5 4v16c0 1.654 1.346 3 3 3h8c1.654 0 3-1.346 3-3V4Zm-2 0v16c0 .551-.449 1-1 1H8c-.551 0-1-.449-1-1V4c0-.551.449-1 1-1h8c.551 0 1 .449 1 1Z"></path></svg>
+                      </span>
+                      <span>
+                        Электроника
+                      </span>
+                      <span class="categories__icon-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="g1d"><path fill="currentColor" d="M9.293 6.293a1 1 0 0 0 0 1.414L13.586 12l-4.293 4.293a1 1 0 1 0 1.414 1.414l5-5a1 1 0 0 0 0-1.414l-5-5a1 1 0 0 0-1.414 0Z"></path></svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="categories__list">
+                    <a href="">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="d1g"><path fill="currentColor" d="M11.62 17.08c-.13.05-.23.12-.33.21-.18.19-.29.45-.29.71 0 .13.03.26.08.38.05.13.12.23.21.33.19.18.45.29.71.29.26 0 .52-.11.71-.29.18-.19.29-.45.29-.71 0-.26-.11-.52-.29-.71-.1-.09-.2-.16-.33-.21a1 1 0 0 0-.76 0ZM14 5a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2h4Z"></path><path fill="currentColor" d="M19 4c0-1.654-1.346-3-3-3H8C6.346 1 5 2.346 5 4v16c0 1.654 1.346 3 3 3h8c1.654 0 3-1.346 3-3V4Zm-2 0v16c0 .551-.449 1-1 1H8c-.551 0-1-.449-1-1V4c0-.551.449-1 1-1h8c.551 0 1 .449 1 1Z"></path></svg>
+                      </span>
+                      <span>
+                        Электроника
+                      </span>
+                      <span class="categories__icon-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="g1d"><path fill="currentColor" d="M9.293 6.293a1 1 0 0 0 0 1.414L13.586 12l-4.293 4.293a1 1 0 1 0 1.414 1.414l5-5a1 1 0 0 0 0-1.414l-5-5a1 1 0 0 0-1.414 0Z"></path></svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="categories__list">
+                    <a href="">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="d1g"><path fill="currentColor" d="M11.62 17.08c-.13.05-.23.12-.33.21-.18.19-.29.45-.29.71 0 .13.03.26.08.38.05.13.12.23.21.33.19.18.45.29.71.29.26 0 .52-.11.71-.29.18-.19.29-.45.29-.71 0-.26-.11-.52-.29-.71-.1-.09-.2-.16-.33-.21a1 1 0 0 0-.76 0ZM14 5a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2h4Z"></path><path fill="currentColor" d="M19 4c0-1.654-1.346-3-3-3H8C6.346 1 5 2.346 5 4v16c0 1.654 1.346 3 3 3h8c1.654 0 3-1.346 3-3V4Zm-2 0v16c0 .551-.449 1-1 1H8c-.551 0-1-.449-1-1V4c0-.551.449-1 1-1h8c.551 0 1 .449 1 1Z"></path></svg>
+                      </span>
+                      <span>
+                        Электроника
+                      </span>
+                      <span class="categories__icon-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="g1d"><path fill="currentColor" d="M9.293 6.293a1 1 0 0 0 0 1.414L13.586 12l-4.293 4.293a1 1 0 1 0 1.414 1.414l5-5a1 1 0 0 0 0-1.414l-5-5a1 1 0 0 0-1.414 0Z"></path></svg>
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="categories__list">
+                    <a href="">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="d1g"><path fill="currentColor" d="M11.62 17.08c-.13.05-.23.12-.33.21-.18.19-.29.45-.29.71 0 .13.03.26.08.38.05.13.12.23.21.33.19.18.45.29.71.29.26 0 .52-.11.71-.29.18-.19.29-.45.29-.71 0-.26-.11-.52-.29-.71-.1-.09-.2-.16-.33-.21a1 1 0 0 0-.76 0ZM14 5a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2h4Z"></path><path fill="currentColor" d="M19 4c0-1.654-1.346-3-3-3H8C6.346 1 5 2.346 5 4v16c0 1.654 1.346 3 3 3h8c1.654 0 3-1.346 3-3V4Zm-2 0v16c0 .551-.449 1-1 1H8c-.551 0-1-.449-1-1V4c0-.551.449-1 1-1h8c.551 0 1 .449 1 1Z"></path></svg>
+                      </span>
+                      <span>
+                        Электроника
+                      </span>
+                      <span class="categories__icon-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="g1d"><path fill="currentColor" d="M9.293 6.293a1 1 0 0 0 0 1.414L13.586 12l-4.293 4.293a1 1 0 1 0 1.414 1.414l5-5a1 1 0 0 0 0-1.414l-5-5a1 1 0 0 0-1.414 0Z"></path></svg>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+  
+              <div class="catalog__product">
+                <div class="product__text">
+                  <span class="product__title">
+                    Электроника
+                  </span>
+                  <span class="product__description"> 
+                    388816 товаров
+                  </span>
+                </div>
+                <div class="product__column">
+                  <div class="product__column-list">
+                    <ul class="footer-description__list_one header__nav">
+                      <li class="list__item">
+                        <span class="list__title">Оптические приборы</span>
+                      </li>
+                      <li class="list__item"><a href="" class="list__link">Телескопы</a></li>
+                      <li class="list__item"><a href="" class="list__link">Микроскопы</a></li>
+                      <li class="list__item"><a href="" class="list__link">Окуляры</a></li>
+                      <li class="list__item"><a href="" class="list__link">Аксессуары для телескопов</a></li>
+                      <li class="list__item"><a href="" class="list__link">Аксессуары для микроскопов</a></li>
+                    </ul>
+
+                    <ul class="footer-description__list_one header__nav">
+                      <li class="list__item">
+                        <span class="list__title">Оптические приборы</span>
+                      </li>
+                      <li class="list__item"><a href="" class="list__link">Телескопы</a></li>
+                      <li class="list__item"><a href="" class="list__link">Микроскопы</a></li>
+                      <li class="list__item"><a href="" class="list__link">Окуляры</a></li>
+                      <li class="list__item"><a href="" class="list__link">Аксессуары для телескопов</a></li>
+                      <li class="list__item"><a href="" class="list__link">Аксессуары для микроскопов</a></li>
+                    </ul>
+
+                    <ul class="footer-description__list_one header__nav">
+                      <li class="list__item">
+                        <span class="list__title">Телефоны и смарт-часы</span>
+                      </li>
+                      <li class="list__item"><a href="" class="list__link">Смартфоны</a></li>
+                      <li class="list__item"><a href="" class="list__link">Смарт-часы и фитнес-браслеты</a></li>
+                      <li class="list__item"><a href="" class="list__link">Сим карты</a></li>
+                      <li class="list__item"><a href="" class="list__link">Мобильные телефоны</a></li>
+                      <li class="list__item"><a href="" class="list__link">Проводные телефоны</a></li>
+                      <li class="list__item"><a href="" class="list__link">Акссесуары для смартфонов</a></li>
+                      <li class="list__item"><a href="" class="list__link">Акссесуары для смартфонов</a></li>
+
+                    </ul>
+                  </div>
+                  <div class="product__column-list">
+                    <ul class="footer-description__list_one header__nav">
+                      <li class="list__item">
+                        <span class="list__title">Телефоны и смарт-часы</span>
+                      </li>
+                      <li class="list__item"><a href="" class="list__link">Смартфоны</a></li>
+                      <li class="list__item"><a href="" class="list__link">Смарт-часы и фитнес-браслеты</a></li>
+                      <li class="list__item"><a href="" class="list__link">Сим карты</a></li>
+                      <li class="list__item"><a href="" class="list__link">Мобильные телефоны</a></li>
+                      <li class="list__item"><a href="" class="list__link">Проводные телефоны</a></li>
+                      <li class="list__item"><a href="" class="list__link">Акссесуары для смартфонов</a></li>
+                      <li class="list__item"><a href="" class="list__link">Акссесуары для смартфонов</a></li>
+                    </ul>
+                  </div>
+                  <div class="product__column-list">
+                    <ul class="footer-description__list_one header__nav">
+                      <li class="list__item">
+                        <span class="list__title">Ноутбуки, планшеты и электронные книги</span>
+                      </li>
+                      <li class="list__item"><a href="" class="list__link">Ноутбуки</a></li>
+                      <li class="list__item"><a href="" class="list__link">Игровые ноутбуки</a></li>
+                      <li class="list__item"><a href="" class="list__link">Планшеты</a></li>
+                      <li class="list__item"><a href="" class="list__link">Электронные книги</a></li>
+                      <li class="list__item"><a href="" class="list__link">Аксессуары для ноутбуков</a></li>
+                      <li class="list__item"><a href="" class="list__link">Аксессуары для планшетов</a></li>
+                    </ul>
+
+                    <ul class="footer-description__list_one header__nav">
+                      <li class="list__item">
+                        <span class="list__title">Телефоны и смарт-часы</span>
+                      </li>
+                      <li class="list__item"><a href="" class="list__link">Смартфоны</a></li>
+                      <li class="list__item"><a href="" class="list__link">Смарт-часы и фитнес-браслеты</a></li>
+                      <li class="list__item"><a href="" class="list__link">Сим карты</a></li>
+                      <li class="list__item"><a href="" class="list__link">Мобильные телефоны</a></li>
+                      <li class="list__item"><a href="" class="list__link">Проводные телефоны</a></li>
+                      <li class="list__item"><a href="" class="list__link">Акссесуары для смартфонов</a></li>
+                      <li class="list__item"><a href="" class="list__link">Акссесуары для смартфонов</a></li>
+
+                    </ul>
+
+                    <ul class="footer-description__list_one header__nav">
+                      <li class="list__item">
+                        <span class="list__title">Оптические приборы</span>
+                      </li>
+                      <li class="list__item"><a href="" class="list__link">Телескопы</a></li>
+                      <li class="list__item"><a href="" class="list__link">Микроскопы</a></li>
+                      <li class="list__item"><a href="" class="list__link">Окуляры</a></li>
+                      <li class="list__item"><a href="" class="list__link">Аксессуары для телескопов</a></li>
+                      <li class="list__item"><a href="" class="list__link">Аксессуары для микроскопов</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+
+
         </div>
 
         <div class="search__input-form">
@@ -1546,5 +1788,6 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
