@@ -432,7 +432,7 @@
 
 
   <main>
-    <div class="container main-container">
+    <div class="container">
       <?php
       include 'phpindex.php';
       ?>
